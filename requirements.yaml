@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "Smooth page transitions, scroll-reveals, and interaction animations"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes"
+
+images:
+  - path: "artifacts/portfolio/public/images/hero-bg.png"
+    description: "Abstract gradient mesh background in deep navy, indigo, and electric blue, soft blurred lighting, very subtle and professional, dark mode style"
+    aspect_ratio: "16:9"
+  - path: "artifacts/portfolio/public/images/avatar.png"
+    description: "A clean, modern, abstract 3D geometric composition representing a developer profile. Clean lines, glowing blue and purple accents on a dark background."
+    aspect_ratio: "1:1"
+
+notes:
+  - Frontend only application, no backend endpoints are required.
+  - Using Framer Motion for scroll-based animations.
+  - Relying on static data from a central data file.
